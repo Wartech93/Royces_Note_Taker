@@ -1,4 +1,3 @@
-const express = require("express");
 
 let noteForm;
 let noteTitle;
@@ -6,8 +5,6 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
-
-app.use(express.static('public'));
 
 if (window.location.pathname === '/notes') {
   noteForm = document.querySelector('.note-form');

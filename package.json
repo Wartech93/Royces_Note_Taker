@@ -1,4 +1,15 @@
 {
+  "name": "royces_note_taker",
+  "version": "1.0.0",
+  "description": "A note taker using express so store notes on a server and update note page with new notes added.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
     "uuid": "^9.0.1"
