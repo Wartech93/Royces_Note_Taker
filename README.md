@@ -15,9 +15,12 @@ This repository contains a note-taking application designed to facilitate the cr
 ## Installation
 To install and run the Note-Taker application locally, follow these steps:
 
-Clone this repository to your local machine using git clone https://github.com/Wartech93/.
+Clone this repository to your local machine using: git clone git@github.com:Wartech93/Royces_Note_Taker.git
 Navigate to the project directory.
-Install dependencies by running npm install.
+Install dependencies by running npm install:
+
+npm i express
+
 Start the server by running npm start.
 Open your web browser and visit  to access the application.
 
